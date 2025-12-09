@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>機材紹介テンプレート</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 40px;
+            line-height: 1.8;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .photo-large,
+        .photo-small {
+            width: 100%;
+            height: 250px;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .photo-small {
+            width: 200px;
+            height: 150px;
+        }
+
+        .rating span {
+            font-size: 28px;
+            color: red;
+        }
+
+        h2 {
+            margin-top: 40px;
+            border-left: 8px solid #444;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 大きな写真 -->
+    <div class="section">
+        <div class="photo-large">機材の写真</div>
+
+        <h2>機材名</h2>
+        <p>ここに機材名を入力</p>
+
+        <h2>評価</h2>
+        <div class="rating">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+
+        <h2>特徴</h2>
+        <p>・特徴1を書く</p>
+        <p>・特徴2を書く</p>
+        <p>・特徴3を書く</p>
+
+        <div class="photo-small">写真</div>
+        <p>このあたりに特徴を補足する説明の文章を入れる。</p>
+        <p>もう少し詳しい使用感などを書いてもOK。</p>
+    </div>
+
+    <!-- 気をつけてほしいこと -->
+    <div class="section">
+        <h2>気をつけてほしいこと</h2>
+        <div class="photo-small">写真</div>
+        <p>注意点の説明を書く。</p>
+        <p>・壊れやすい部分など</p>
+        <p>・使用時のポイント</p>
+        <p>・組み立てや保管での注意</p>
+    </div>
+
+    <!-- アドバンストな言いたいこと -->
+    <div class="section">
+        <h2>アドバンストな言いたいこと</h2>
+        <p>より専門的な解説を書く。</p>
+        <p>性能の話や、他の機材との比較など。</p>
+    </div>
+
+    <!-- 鏡筒ならそれで撮った写真 -->
+    <div class="section">
+        <h2>作例</h2>
+        <div class="photo-large">鏡筒ならそれで撮った写真</div>
+    </div>
+
+</body>
+</html>
+
